@@ -1,1 +1,2 @@
-gunicorn app:app
+web: cd src && gunicorn app:app
+
