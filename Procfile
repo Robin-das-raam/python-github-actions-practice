@@ -1,2 +1,2 @@
-web: PYTHONPATH=src gunicorn myapp:app
+gunicorn myapp:app
 
